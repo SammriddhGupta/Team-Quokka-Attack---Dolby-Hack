@@ -6,7 +6,7 @@ const defaults = {
   VITE_RTMP_STREAMING: 'true',
   VITE_MUSIC_MODE: 'true',
   VITE_BLUR_OPTION: 'true',
-  VITE_CONFERENCE_RECORDING: 'false',
+  VITE_CONFERENCE_RECORDING: 'true',
 } satisfies Record<string, string | undefined>;
 // The type above allows us to define the value type while still being strongly typed
 // For example, the type for defaults.VITE_ENABLE_UNGATED_FEATURES is undefined rather
