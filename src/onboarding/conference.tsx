@@ -20,7 +20,7 @@ export const conferenceSteps: OnboardingStep[] = [
     content: () => <>Toggle here to blur your background.</>,
     position: 'top',
   },
-  {
+  /*{
     target: 'MusicModeButton',
     title: 'Music mode',
     content: () => (
@@ -28,14 +28,15 @@ export const conferenceSteps: OnboardingStep[] = [
     ),
     position: 'top',
     align: 'end',
-  },
+  }*/
+  /*,
   {
     target: 'LiveStreamButton',
     title: 'Live streaming',
     content: () => <>Live stream to a larger audience via RTMP.</>,
     position: 'top',
     align: 'end',
-  },
+  },*/
 
   {
     target: 'OpenDrawerButton',
