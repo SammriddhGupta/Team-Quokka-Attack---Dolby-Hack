@@ -72,7 +72,7 @@ export const ConferenceCreateInput = ({
     setMeetingName,
   } = useConferenceCreate(type);
   const [validation, setValidation] = useState<ValidationType>({ valid: true });
-  const [value, setValue] = useState(type === 'meeting' ? splitMeetingAlias(meetingName)[0] : username);
+  const [value, setValue] = useState(type === 'meeting' ? splitMeetingAlias(meetingName)[0] : "HelpNeeded");
   const [searchParams] = useSearchParams();
   const intl = useIntl();
   const { isMobile, isMobileSmall, isTablet } = useTheme();
