@@ -51,4 +51,11 @@ export const conferenceSteps: OnboardingStep[] = [
     position: 'top',
     align: 'end',
   },
+  {
+    target: 'RecordingButton',
+    title: 'Start Recording',
+    content: () => <>To start recording.</>,
+    position: 'top',
+    align: 'start',
+  }
 ];
